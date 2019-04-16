@@ -1,0 +1,493 @@
+/*big tablets to 1200 widths smaller than 1440px row*/
+@media only screen and (max-width:1439px){
+    
+      
+    
+}
+
+
+
+/*big tablets to 1200 widths smaller than 1440px row*/
+@media only screen and (max-width:1200px){
+    
+    
+}
+
+
+
+
+
+/*small tablets to big tablet from 768 to 1023*/
+@media only screen and (max-width:1023px){
+   .contact-us .contactform{
+        width:70% !important;
+        max-width:70% !important;
+    }
+    .contact-us .contact-form{
+        width:100% !important;
+        max-width:100% !important;
+    }
+    .contact-us .group{
+        width:100% !important;
+        max-width:100% !important;
+    }
+    .contact-us{
+        padding:0 !important;
+        margin: 0 !important;
+    }
+    .btn-contact{
+     width:135px !important;
+    height:50px !important;
+    background-color: #faba96;
+    color:#fff;
+    border-radius:0px;
+    padding:15px 30px;
+    display:block;
+    text-align:center;
+    
+     -webkit-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+}
+    .contact-us textarea{
+        height:100px !important;
+    }
+    .contact-us input, textarea {
+    margin: 0 !important;
+    font-size: 14px;
+    padding: 10px 5px;
+    display: block;
+    width: 100%;
+        
+    border: 1px solid #fff !important;
+    background-color: transparent !important;
+    color: #999;
+}
+    .contact-us input:focus,
+        textarea:focus {
+            outline: none !important;
+            border:none !important;
+        }
+    .filters-parent input, textarea {
+    margin: 0 !important;
+    font-size: 14px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+        
+    border: 1px solid #6a4ea5 ;
+    background-color: transparent !important;
+    color: #999;
+}
+     .filters-parent input:focus,
+        textarea:focus {
+            outline: none !important;
+            border:none !important;
+        }
+    .filters-parent .group{
+        width:60% !important;
+    }
+     .image-wrapper img{
+    width:100%;
+    max-width: 100%;
+    height:57%!important;
+    object-fit:cover;
+
+}
+     header .hero-text-box{
+    
+    top: 73%;
+      left:28%;
+   
+    
+}
+   body h1{
+        font-size:250% !important;
+    }
+    header h1:hover {
+          background: linear-gradient(120deg, #FABA96 0%, #FABA96 100%);
+            background-repeat: no-repeat;
+  background-size: 57% 0.5em;
+  background-position: 0 80%;
+  
+}
+     header p {
+         
+  font-size:120% !important;
+}
+    body .btn2:link, body .btn2:visited {
+      width:130px !important;
+    height:30px !important;
+    padding:10px 10px !important;
+        font-size:16px;
+         display: unset !important;
+        
+        
+      
+    }
+    .navbar .navbar-brand img {
+    width: 105px;
+    height: 100px;
+    margin-top: 10px;
+}
+    .team img{
+    width:100%;
+    max-width:100%;
+     height:50%;
+    object-fit:cover;
+   
+}
+    .about p{
+            font-size: 109%;
+    }
+    .about img {
+    margin-top: 3rem;
+    max-width: 100%;
+        width: 300px !important;}
+   
+     .container {
+    width: 100%;
+    padding-right: 6px !important;
+    padding-left: 68px !important;
+    margin-right: auto;
+    margin-left: auto;
+}
+}
+
+
+
+
+/*small phones to small tablets from 481 to 767*/
+@media only screen and (max-width:767px){
+     .container {
+    width: 100%;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    margin-right: auto;
+    margin-left: auto;
+}
+    .navbar a.navbar-brand {
+    
+    padding: 0 121px;
+   
+    
+}
+    header .hero-text-box {
+    top: 63% !important;
+    left: 42%!important;
+}
+    .image-wrapper img {
+    width: 100%  !important;
+    max-width: 100%  !important;
+    height: 30%  !important;
+    object-fit: cover  !important;
+}
+    .team img {
+    width: 100%;
+    max-width: 100%;
+    height: 24% !important;
+    object-fit: cover;
+}
+   .section-partners .partners-photo img {
+ 
+  width:50px;
+  height: 50px;
+    }
+     .contact-us .contactform{
+        width:100% !important;
+        max-width:100% !important;
+    }
+    .contact-us .contact-form{
+        width:100% !important;
+        max-width:100% !important;
+    }
+    .contact-us .group{
+        width:100% !important;
+        max-width:100% !important;
+    }
+    .contact-us{
+        padding:0 !important;
+        margin: 0 !important;
+    }
+    .btn-contact{
+     width:135px !important;
+    height:50px !important;
+    background-color: #faba96;
+    color:#fff;
+    border-radius:0px;
+    padding:15px 30px;
+    display:block;
+    text-align:center;
+    
+     -webkit-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+}
+    .contact-us textarea{
+        height:100px !important;
+    }
+    .contact-us input, textarea {
+    margin: 0 !important;
+    font-size: 14px;
+    padding: 10px 5px;
+    display: block;
+    width: 100%;
+        
+    border: 1px solid #fff !important;
+    background-color: transparent !important;
+    color: #999;
+}
+    .contact-us input:focus,
+        textarea:focus {
+            outline: none !important;
+            border:none !important;
+        }
+    footer div.col-6{
+        margin-top:18px !important;
+        width:100% !important;
+        flex: 0 0 100%;
+    max-width: 100%;
+    }
+    .filters-parent div.group {
+   
+    width: 70%;
+        
+        
+    
+}
+   
+    .filters-parent input, textarea {
+    margin: 0 !important;
+    font-size: 14px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+        
+    border: 1px solid #6a4ea5 ;
+    background-color: transparent !important;
+    color: #999;
+}
+     .filters-parent input:focus,
+        textarea:focus {
+            outline: none !important;
+            border:none !important;
+        }
+    .filters-parent .col-3 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+      margin:5px 0;
+}
+    .btn-show{
+     width:130px !important;
+    height:30px !important;
+    padding:7px 30px;
+        font-size: 12px;
+    
+}
+}
+
+
+
+/*small phones from 0 to 480px*/
+@media only screen and (max-width:480px){
+    .navbar a.navbar-brand {
+    padding: 0 82px !important;
+}
+     header .hero-text-box {
+    top: 35% !important;
+    left: 42%!important;
+        
+}
+  .col-3 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+      margin:5px 0;
+}
+    .image-wrapper img{
+    width:100%;
+    max-width: 100%;
+    height:20% !important;
+    object-fit:cover;
+
+}
+    .btn-image{
+    width:100px !important;
+    height:30px !important;
+    background-color: #6a4ea5;
+    color:#fff;
+    border-radius:0px;
+    padding:10px 10px;
+    margin-top:5px;
+     -webkit-transition: background-color 0.2s;
+    transition: background-color 0.2s; }
+    .btn-show{
+         padding:15px 30px;
+    }
+    .team img{
+    width:100%;
+    max-width:100%;
+     height:15% !important;
+    object-fit:cover;
+   
+}
+    .btn-show{
+     width:130px !important;
+    height:30px !important;
+    padding:7px 30px;
+        
+    
+}
+    .filters-parent div.group {
+   
+    width: 70%;
+        
+        
+    
+}
+   
+    .filters-parent input, textarea {
+    margin: 0 !important;
+    font-size: 14px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+        
+    border: 1px solid #6a4ea5 ;
+    background-color: transparent !important;
+    color: #999;
+}
+     .filters-parent input:focus,
+        textarea:focus {
+            outline: none !important;
+            border:none !important;
+        }
+    .contact-us .contactform{
+        width:100% !important;
+        max-width:100% !important;
+    }
+    .contact-us .contact-form{
+        width:100% !important;
+        max-width:100% !important;
+    }
+    .contact-us .group{
+        width:100% !important;
+        max-width:100% !important;
+    }
+    .contact-us{
+        padding:0 !important;
+        margin: 0 !important;
+    }
+    .btn-contact{
+     width:135px !important;
+    height:50px !important;
+    background-color: #faba96;
+    color:#fff;
+    border-radius:0px;
+    padding:15px 30px;
+    display:block;
+    text-align:center;
+    
+     -webkit-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+}
+    .contact-us textarea{
+        height:100px !important;
+    }
+    .contact-us input, textarea {
+    margin: 0 !important;
+    font-size: 14px;
+    padding: 10px 5px;
+    display: block;
+    width: 100%;
+        
+    border: 1px solid #fff !important;
+    background-color: transparent !important;
+    color: #999;
+}
+    .contact-us input:focus,
+        textarea:focus {
+            outline: none !important;
+            border:none !important;
+        }
+    footer div.col-6{
+        width:100% !important;
+        flex: 0 0 100%;
+    max-width: 100%;
+    }
+    .describtion{
+    top:0 !important;
+    width:100% !important;
+        font-size:90% !important;
+}
+.about img{
+    margin-top: 1rem !important;
+    max-width:100%;
+}
+    .about{
+        
+        padding-bottom: 5rem !important;
+    }
+    body .btn2:link, body .btn2:visited {
+      width:130px !important;
+    height:30px !important;
+    padding:10px 10px !important;
+        font-size:16px;
+         display: unset !important;
+        
+        
+      
+    }
+    header .hero-text-box{
+    
+    top: 35%;
+   
+    
+}
+   body h1{
+        font-size:250% !important;
+    }
+    header h1:hover {
+          background: linear-gradient(120deg, #FABA96 0%, #FABA96 100%);
+            background-repeat: no-repeat;
+  background-size: 57% 0.5em;
+  background-position: 0 80%;
+  
+}
+     header p {
+         
+  font-size:120% !important;
+}
+    .section-partners .partners-photo img {
+ 
+  width:50px;
+  height: 50px;
+    
+ 
+}
+    .filters-parent input,
+        textarea {
+           height:25 !important;
+            }
+    .filters-parent label {
+            top:3px !important;
+            }
+    .btn-search{
+        font-size:8px !important;
+        margin-bottom:20rem !important;
+    }
+    .btn-search img{
+        width:20px !important;
+        height:20px !important;
+    }
+    .filters-parent input:focus~label,
+        input:valid~label {
+            top: -21px !important;
+            font-size: 12px;
+            color: #faba96;
+        }
+    .contact-us input,
+        textarea {
+           width:100% !important;
+            }
+}
+   
