@@ -10,10 +10,10 @@
 /*big tablets to 1200 widths smaller than 1440px row*/
 @media only screen and (max-width:1200px){
      .col-3 {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-      margin:5px 0;
+    -ms-flex: 0 0 50% !important;
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+      margin:5px 0 !important;
 }
     
 }
