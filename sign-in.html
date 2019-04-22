@@ -1,0 +1,81 @@
+ <html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" name="viewport">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous">
+    
+    
+ 
+ <!---bootstrap-->
+  <link rel="stylesheet" type="text/css" href="vendors/css/bootstrap.min.css">
+    
+  <!---font-->
+ <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <!---style-->
+  <link rel="stylesheet" type="text/css" href="resources/css/style2.css">
+
+  <!---animate-->
+  <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+  <!---fontawesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1"
+    crossorigin="anonymous">
+    
+
+
+
+
+</head>
+
+<body>
+    
+    
+    
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade sign-in" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      
+      <div class="modal-body">
+          <p class="text-center">SIGN IN</p>
+         
+                  <div class="group mt-5"> <input  class="mail" type="email" required> <span class="highlight"></span> <span class="bar"></span> <label>MAIL</label> </div>
+          <div class="group mt-5"> <input class="password" type="text" required> <span class="highlight"></span> <span class="bar"></span> <label>PASSWORD</label> </div>
+          <a href="#"class="btn-submit my-5 ">SUBMIT</a>
+          
+      </div>
+      
+    </div>
+  </div>
+</div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+   
+    <script src="vendors/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+      </script>
+    <script>
+        $(function() {
+  $('#a').hover(function() {
+    $('#b').css('color', '#FABA96');
+  }, function() {
+    // on mouseout, reset the background colour
+    $('#b').css('color', '#fff');
+  });
+});
+    </script>
+    <script src="resources/js/main.js"></script>
+</body>
+
+</html>

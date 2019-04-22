@@ -9,12 +9,7 @@
 
 /*big tablets to 1200 widths smaller than 1440px row*/
 @media only screen and (max-width:1200px){
-     .col-3 {
-    -ms-flex: 0 0 50% !important;
-    flex: 0 0 50% !important;
-    max-width: 50% !important;
-      margin:5px 0 !important;
-}
+    
      .team img{
     width:100%;
     max-width:100%;
@@ -171,6 +166,15 @@
 
 /*small phones to small tablets from 481 to 767*/
 @media only screen and (max-width:767px){
+    .col-4 {
+    -ms-flex: 0 0 100% !important;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+      margin:5px 0 !important;
+}
+    .col-4{
+        margin-top:20px !important;
+    }
      .container {
     width: 100%;
     padding-right: 15px !important;

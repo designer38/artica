@@ -26,14 +26,15 @@
 </head>
 
 <body>
+    
   <header>
     <!---beg of nav-->
     <!---responsive buttons-->
 
     <!---responsive buttons-->
-    <nav class="navbar text-light">
+    <nav class="navbar text-light bg-dark" >
 
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="index.html">
         <img src="resources/imgs/ARTICA.svg" class="logo">
       </a>
 
@@ -41,19 +42,22 @@
 
         <ul class="float-right ">
           <li>
-            <a href="#">ABOUT </a>
+            <a href="#about">ABOUT </a>
           </li>
           <li>
-            <a href="#">CONTACT </a>
+            <a href="#contact-us">CONTACT </a>
           </li>
           <li>
-            <a href="#"> PARTNERS</a>
+            <a href="#section-partners"> PARTNERS</a>
           </li>
           <li>
-            <a href="#">TEAM</a>
+            <a href="#team">TEAM</a>
           </li>
           <li>
-            <a href="#">SIGN IN</a>
+            <a href="#" data-toggle="modal" data-target="#exampleModal">SIGN IN</a>
+          </li>
+             <li>
+            <a href="cart.html" ><img src="resources/imgs/shopping-cart-1.png" class="logo"></a>
           </li>
         </ul>
         <button class="navbar-toggler">
@@ -65,12 +69,12 @@
 <div class="hero-text-box">
     <h1 id="a"class="wow zoomInLeft">ARTICA</h1>
     <p id="b" class="wow slideInLeft mb-4">A place where artists can sell their art work</p>
-    <a class="btn2" href="#">Get started</a>
+    <a class="btn2" href="sign up.html">Get started</a>
 </div>
 
   </header>
     <!--about-->
-    <section class="about p-5">
+    <section class="about p-5" id="about">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -88,10 +92,10 @@
     <!--filters wrapper-->
     <div class="container mt-5">
         <div class="filters-parent row">
-            <div class="col-3">
+            <div class="col-4">
                     <div class="dropdown zoomInDown wow " data-wow-duration="0.5s" data-wow-delay="0.5s" >
     <button type="button" class="btn2 dropdown-toggle" data-toggle="dropdown">
-      Dropdown button
+      Price
     </button>
     <div class="dropdown-menu">
       <a class="dropdown-item" href="#">Link 1</a>
@@ -100,10 +104,10 @@
     </div>
   </div>
             </div>
-  <div class="col-3">
+  <div class="col-4">
         <div class="dropdown zoomInDown wow " data-wow-duration="0.5s" data-wow-delay="0.5s" >
     <button type="button" class="btn2 dropdown-toggle" data-toggle="dropdown">
-      Dropdown button
+      Art work
     </button>
     <div class="dropdown-menu">
       <a class="dropdown-item" href="#">Link 1</a>
@@ -112,20 +116,9 @@
     </div>
   </div>
             </div>
-            <div class="col-3">
-                   <div class="dropdown zoomInDown wow " data-wow-duration="0.5s" data-wow-delay="0.5s" >
-    <button type="button" class="btn2 dropdown-toggle" data-toggle="dropdown">
-      Dropdown button
-    </button>
-    <div class="dropdown-menu">
-      <a class="dropdown-item" href="#">Link 1</a>
-      <a class="dropdown-item" href="#">Link 2</a>
-      <a class="dropdown-item" href="#">Link 3</a>
-    </div>
-  </div>
-            </div>
+   
       
-     <div class="col-3">
+     <div class="col-4">
          
                       <div class="group"> <input type="text" required> <span class="highlight"></span> <span class="bar"></span> <label>EX:picaso</label> </div>
 
@@ -382,7 +375,7 @@
     <!--popular art -->
     
     <!--team-->
-    <section class="team mb-5">
+    <section class="team mb-5" id="team">
         <h2 class="zoomInDown wow my-5" data-wow-duration="0.5s" data-wow-delay="0.5s">TEAM</h2>
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
@@ -651,8 +644,8 @@
   </section>
     <!--partners-->
     <!--contact us-->
-    <section class="contact-us" >
-         <h2 class="zoomInDown wow " data-wow-duration="0.5s" data-wow-delay="0.5s"> CONTACT US</h2>
+    <section class="contact-us" id="contact-us" >
+         <h2 class="zoomInDown wow pt-5" data-wow-duration="0.5s" data-wow-delay="0.5s"> CONTACT US</h2>
          
      
       
@@ -694,7 +687,7 @@
         <div class="col-6">
             <P>Email subscribtion</P>
             <p class="small-text mt-3">Subscribe to get the latest offers, new art pieces</p>
-            <div class="group mt-4"> <input type="text" required> <span class="highlight"></span> <span class="bar"></span> <label>you mail</label> </div>
+            <div class="group mt-4"> <input type="text" required> <span class="highlight"></span> <span class="bar"></span> <label>your mail</label> </div>
             <a href="#"class="btn-contact my-1 ">SUBSCRIBE</a>
         </div>
             </div>
@@ -702,10 +695,44 @@
         
     </footer>
     <!--FOOTER-->
-    
+    <!-- Modal -->
+<div class="modal fade sign-in" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+        
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><img class="closestyle"src="resources/imgs/cancel.svg" ></span>
+        </button>
+      </div>
+     
+      <div class="modal-body">
+          <p class="text-center intro">SIGN IN</p>
+         
+                  <div class="group mt-5"> <input  class="mail" type="email" required> <span class="highlight"></span> <span class="bar"></span> <label>MAIL</label> </div>
+          <div class="group mt-5"> <input class="password" type="text" required> <span class="highlight"></span> <span class="bar"></span> <label>PASSWORD</label> </div>
+          <a href="#"class="btn-signin my-5 ">SUBMIT</a>
+          
+      </div>
+      
+    </div>
+  </div>
+</div>
   
   
-  
+   <script>
+       var nav = document.querySelector('nav'); // Identify target
+
+window.addEventListener('scroll', function(event) { // To listen for event
+    event.preventDefault();
+
+    if (window.scrollY <= 1000) { // Just an example
+        nav.style.backgroundColor = '#6A4EA5'; // or default color
+    } else {
+        nav.style.backgroundColor = 'transparent';
+    }
+});
+    </script>
   
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
@@ -727,6 +754,14 @@
   });
 });
     </script>
+    <script>
+        $(window).scroll(function(){
+           $('nav').toggleClass('scrolled',
+               $(this).scrollTop()>1060);
+        });
+    </script>
+    
+    
     <script src="resources/js/main.js"></script>
 </body>
 

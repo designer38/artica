@@ -1,0 +1,89 @@
+/*big tablets to 1200 widths smaller than 1440px row*/
+@media only screen and (max-width:1439px){
+    
+      
+    
+}
+
+
+
+/*big tablets to 1200 widths smaller than 1440px row*/
+@media only screen and (max-width:1200px){
+   
+   
+    
+}
+
+
+
+
+
+/*small tablets to big tablet from 768 to 1023*/
+@media only screen and (max-width:1023px){
+   .middle-box{
+    
+        margin-bottom:100px !important;
+        
+    
+}
+    .application{
+        height:120vh;
+    }
+    div.col{
+        width:50% !important;
+         flex: 0 0 50%;
+         margin-top:18px !important;
+    }
+    .margino{
+        margin-left:20px !important;
+    }
+}
+
+
+
+
+/*small phones to small tablets from 481 to 767*/
+@media only screen and (max-width:767px){
+    div.col{
+        width:100% !important;
+         flex: 0 0 100%;
+         margin-top:18px !important;
+    }
+    footer div.col-6{
+        margin-top:18px !important;
+        width:100% !important;
+        flex: 0 0 100%;
+    max-width: 100%;
+    }
+  
+   .btn-submit{
+     width:135px !important;
+    height:50px !important;
+   
+    
+    padding:15px 30px !important;
+   
+}
+    .label{
+        font-size:16px !important;
+    }
+    
+    
+}
+
+
+
+/*small phones from 0 to 480px*/
+@media only screen and (max-width:480px){
+    body{
+        font-size:14px !important;
+    }
+    input,
+    textarea{
+        font-size:14px !important;
+    }
+    label{
+        font-size:14px !important;
+    }
+}
+   
