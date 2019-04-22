@@ -17,7 +17,18 @@
     object-fit:cover;
    
 }
-   
+    .art .col-3{
+         -ms-flex: 0 0 50% !important;
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+      margin:5px 0 !important;
+    }  
+    .team .col-3{
+         -ms-flex: 0 0 50% !important;
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+      margin:5px 0 !important;
+    }   
     
 }
 
@@ -152,13 +163,7 @@
     max-width: 100%;
         width: 300px !important;}
    
-     .container {
-    width: 100%;
-    padding-right: 6px !important;
-    padding-left: 68px !important;
-    margin-right: auto;
-    margin-left: auto;
-}
+    
 }
 
 
@@ -175,13 +180,7 @@
     .col-4{
         margin-top:20px !important;
     }
-     .container {
-    width: 100%;
-    padding-right: 15px !important;
-    padding-left: 15px !important;
-    margin-right: auto;
-    margin-left: auto;
-}
+    
     .navbar a.navbar-brand {
     
     padding: 0 121px;
